@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background: linear-gradient(135deg,red,blue,green);
+            height: 100dvh;
+            display: flex;
+
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+        }
+        .resBox{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+
+            margin: 2em;
+            padding: 2em;
+
+            background-color: red;
+
+            height: 200px;
+            width: 200px;
+
+            
+        }
+
+        .resBox  :nth-child(2)
+        {
+            margin-block:1.5em;
+        }
+
+        .resBox  :nth-child(4)
+        {
+            margin-block:1.5em;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <span>User regesteration </span>
+
+    <div class="resBox">
+        <label for="">user Name</label>
+        <input required type="text">
+
+        <label for="">email</label>
+        <input type="text">
+
+        <button class="sub">submit</button>
+
+        <p>gi</p>
+
+    </div>
+</body>
+</html>
